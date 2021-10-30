@@ -48,6 +48,7 @@ CHATBOT: "Your welcome, enjoy the city :)"
 
 ___________________________________________
 
+
 If users have any problems or need any informatons they can say "HELP" to get the e-mail which can help them for any request.
 The e-mail is : help@praguecollege.cz
 
@@ -55,6 +56,7 @@ in the future, we can involve this chatbot into give further informations about 
 
 We are open for contributors only if they are motivated into help involving this chatbot taking into account users criticizes.
 They also have to know Prague City precisely. It will be important for the future of this chatbot.
+
 
 
 This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation : Petr Svarny.
