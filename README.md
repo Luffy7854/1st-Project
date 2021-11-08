@@ -61,17 +61,39 @@ They also have to know Prague City precisely. It will be important for the futur
 
 This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation teacher : Petr Svarny.
 
-## footbar
+# Foobar
 
-gfuegfueyuugf
+Foobar is a Python library for dealing with word pluralization.
 
+## Installation
 
-## CHATBOT
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install foobar.
 
-njrfjnvr
+```bash
+pip install foobar
+```
 
-## CLOJURE
+## Usage
 
-abishan jayadas
+```python
+import foobar
+
+# returns 'words'
+foobar.pluralize('word')
+
+# returns 'geese'
+foobar.pluralize('goose')
+
+# returns 'phenomenon'
+foobar.singularize('phenomena')
+```
+
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
