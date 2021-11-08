@@ -1,4 +1,8 @@
-This is our first project in symbolic computation : ICA1
+                                                         This is our first project in symbolic computation : ICA1
+                                                         
+                                                         
+                                                         ![My Post](https://user-images.githubusercontent.com/92300609/140782329-167cf542-f4b9-491d-afe7-f1a621d2b066.jpg)
+
 
 The project is to create a chatbot in Clojure in a teamwork.
 We have to follow several conditions which can help any tourists to get precious informations about their activities in this city. 
@@ -62,14 +66,6 @@ They also have to know Prague City precisely. It will be important for the futur
 This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation teacher : Petr Svarny.
 
 
-## This is Heading
-
-## Installation
-
-## '''bash
-
-
-![My Post](https://user-images.githubusercontent.com/92300609/140782045-0f4640b1-4652-411a-ae07-59b745fa0974.jpg)
 
 
 
