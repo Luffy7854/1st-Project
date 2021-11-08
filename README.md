@@ -25,6 +25,38 @@ Only users who can use this environment can use the chatbot to get informations 
 If some toursits want to, they can also use another environment which allow clojure programm.
 
 
+
+
+![image](https://user-images.githubusercontent.com/92300609/140785129-f1eb9a1c-e20c-403d-9cee-fe169e2a3265.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<img width="406" alt="2021-11-08 (3)" src="https://user-images.githubusercontent.com/92300609/140785194-ba863501-1419-4e5b-97cc-a5d28eeb2371.png">
+
+
+
+
+
+
+
+
+
 EXAMPLE of chat between any users and chatbot :
 
 _____________________________________________
