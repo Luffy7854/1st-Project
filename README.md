@@ -1,4 +1,4 @@
-                                                   ## This is our first project in symbolic computation : ICA1
+                                                    This is our first project in symbolic computation : ICA1
                                                          
                                                          
 ![My Post](https://user-images.githubusercontent.com/92300609/140782329-167cf542-f4b9-491d-afe7-f1a621d2b066.jpg)
@@ -11,6 +11,7 @@ Our chatbot can give informations, answer simple questions and also simplify the
 
 This chatbot used to be clear, easy to use and follow a ELIZA structure.
 
+## USE
 
 To use this simple chatbot.
    - You have to first say Hello
@@ -56,14 +57,14 @@ footbar
 
 
 
-
+## Chatbot 
 
 
 EXAMPLE of chat between any users and chatbot :
 
 _____________________________________________
 
-USER : "Hello, HELP"
+USER : "Hello"
 
 CHATBOT : "HI, INFORMATIONS OR HELP ?"
 
@@ -86,6 +87,7 @@ CHATBOT: "Your welcome, enjoy the city :)"
 
 ___________________________________________
 
+## HELP
 
 If users have any problems or need any informatons they can say "HELP" to get the e-mail which can help them for any request.
 The e-mail is : help@praguecollege.cz
@@ -95,6 +97,8 @@ in the future, we can involve this chatbot into give further informations about 
 We are open for contributors only if they are motivated into help involving this chatbot taking into account users criticizes.
 They also have to know Prague City precisely. It will be important for the future of this chatbot.
 
+
+## LICENCE
 
 
 This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation teacher : Petr Svarny.
