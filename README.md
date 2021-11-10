@@ -1,4 +1,4 @@
-                                                    This is our first project in symbolic computation : ICA1
+                                                   ## This is our first project in symbolic computation : ICA1
                                                          
                                                          
 ![My Post](https://user-images.githubusercontent.com/92300609/140782329-167cf542-f4b9-491d-afe7-f1a621d2b066.jpg)
@@ -90,7 +90,7 @@ ___________________________________________
 If users have any problems or need any informatons they can say "HELP" to get the e-mail which can help them for any request.
 The e-mail is : help@praguecollege.cz
 
-in the future, we can involve this chatbot into give further informations about a location and give more precise informations about any requests from a toursit.
+in the future, we can involve this chatbot into give further informations about a location and give more precise informations about any requests from a tourist.
 
 We are open for contributors only if they are motivated into help involving this chatbot taking into account users criticizes.
 They also have to know Prague City precisely. It will be important for the future of this chatbot.
