@@ -11,7 +11,12 @@ Our chatbot can give informations, answer simple questions and also simplify the
 
 This chatbot used to be clear, easy to use and follow a ELIZA structure.
 
-## USE
+## USAGE
+
+REQUIREMENTS : Our chatbot run only in REPL environment.
+Only users who can use this environment can use the chatbot to get informations about Prague city.
+
+If some toursits want to, they can also use another environment which allow clojure programm.
 
 To use this simple chatbot.
    - You have to first say Hello
@@ -20,10 +25,8 @@ To use this simple chatbot.
    - At the end, when you get all the informations. You can say "thank you good bye".
    
    
-REQUIREMENTS : Our chatbot run only in REPL environment.
-Only users who can use this environment can use the chatbot to get informations about Prague city.
 
-If some toursits want to, they can also use another environment which allow clojure programm.
+
 
 
 
