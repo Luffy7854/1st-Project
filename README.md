@@ -45,7 +45,7 @@ EXAMPLE of chat between any users and chatbot :
 
 _____________________________________________
 
-''' USER : "Hello"
+'''bash USER : "Hello"
 
 CHATBOT : "HI, INFORMATIONS OR HELP ?"
 
@@ -65,7 +65,7 @@ CHATBOT : "TRAM 4,16 and 22"
 USER : "NO,thanks"
 
 CHATBOT: "Your welcome, enjoy the city :)"
-
+'''
 ___________________________________________
 
 ## HELP
