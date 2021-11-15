@@ -28,7 +28,7 @@ If some toursits want to, they can also use another environment which allow cloj
 
 
 
-           <img width="376" alt="2021-11-08 (2)" src="https://user-images.githubusercontent.com/92300609/140785349-ae27717b-1b65-4213-854c-988da81f1490.png">
+<img width="376" alt="2021-11-08 (2)" src="https://user-images.githubusercontent.com/92300609/140785349-ae27717b-1b65-4213-854c-988da81f1490.png">
 
 
 
