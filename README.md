@@ -9,7 +9,15 @@ We have to follow several conditions which can help any tourists to get precious
 
 Our chatbot can give informations, answer simple questions and also simplify the life of foreign tourists effectively.
 
-This chatbot used to be clear, easy to use and follow a ELIZA structure.
+This chatbot used to be clear, easy to use and follow a ELIZA structure.## HOW TO START
+
+
+
+## HOW TO START
+
+First, install clojure, just follow https://clojure.org/guides/getting_started
+
+After just start with Heelo and follow the command to ask your request.
 
 ## USAGE
 
