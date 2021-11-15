@@ -97,7 +97,7 @@ They also have to know Prague City precisely. It will be important for the futur
 This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation teacher : Petr Svarny.
 
 
-
+THat's all
 
 
 
