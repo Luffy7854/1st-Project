@@ -91,7 +91,7 @@ We are open for contributors only if they are motivated into help involving this
 They also have to know Prague City precisely. It will be important for the future of this chatbot.
 
 
-## LICENCSE
+## LICENSE
 
 
 This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation teacher : Petr Svarny.
