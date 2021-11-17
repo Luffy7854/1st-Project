@@ -17,7 +17,7 @@ This chatbot used to be clear, easy to use and follow a ELIZA structure.## HOW T
 
 First, install clojure, just follow https://clojure.org/guides/getting_started
 
-After just start with Hello and follow the command to ask your request.
+After just start with hello and follow the command to ask your request.
 
 ## USAGE
 
@@ -27,10 +27,10 @@ Only users who can use this environment can use the chatbot to get informations 
 If some toursits want to, they can also use another environment which allow clojure programm.
 
 To use this simple chatbot.
-   - You have to first say Hello
-   - Then ask your question
-   - if you have any other question you can say "Another question"
-   - At the end, when you get all the informations. You can say "thank you good bye".
+   - You have to first say "hello"
+   - Then ask your question with keywords
+   - if you have any other question about keywords you can say "HELP"
+   - At the end, when you get all the informations the program closes with "program finish..." . 
    
    
 
@@ -57,26 +57,30 @@ EXAMPLE of chat between any users and chatbot :
 _____________________________________________
 
 ```bash 
-USER : "Hello"
+USER : "hello"
 
-CHATBOT : "HI, INFORMATIONS OR HELP ?"
+CHATBOT : "What's your name ?"
 
-USER : "Information"
+USER : "Bastien"
 
-CHATBOT : "Which city ?"
+CHATBOT : "HI Bastien, INFORMATIONS OR HELP ?"
 
-USER : "Botic" 
+USER : "INFORMATION"
 
-CHATBOT : "What is your question ?"
+CHATBOT : "About wich park ?"
 
-USER : "How can we go there ?"
+USER : "Kampa" 
+
+CHATBOT : "The kampa park, ok no problem what do you want to know ?"
+
+USER : "Transport"
 
 CHATBOT : "TRAM 4,16 and 22" 
           "Any other questions"
 
 USER : "NO,thanks"
 
-CHATBOT: "Your welcome, enjoy the city :)"
+CHATBOT: "Program finish..."
 ```
 ___________________________________________
 
