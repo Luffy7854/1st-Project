@@ -31,7 +31,7 @@
 (println "1st Project of Symbolic Computation, chatbot Bastien")
 (println " ")
 
-(println "Hello, do you whant to start the chatbot Y/N?:  ")
+(println "Hello, do you want to start the chatbot Y/N?:  ")
  (let [yayinput (read-line)]
   (if (= yayinput "Y")
     (println "Ok let's start!")
@@ -71,7 +71,7 @@
        (println "OK, the localisation for "z" is:  Malá Strana, 118 00 Prague 1"))
 
     (if (contains? skate v)
-        (println "Yes you can skating in the Kampa parc"))
+        (println "Yes you can skate in the Kampa parc"))
 
     (if (contains? wc v)
         (println "Yes Kampa have"v",you can find them at the entrance"))
