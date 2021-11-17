@@ -67,7 +67,7 @@ CHATBOT : "HI Bastien, INFORMATIONS OR HELP ?"
 
 USER : "INFORMATION"
 
-CHATBOT : "About wich park ?"
+CHATBOT : "About which park ?"
 
 USER : "Kampa" 
 
