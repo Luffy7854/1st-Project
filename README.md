@@ -9,7 +9,7 @@ We have to follow several conditions which can help any tourists to get precious
 
 Our chatbot can give informations, answer simple questions and also simplify the life of foreign tourists effectively.
 
-This chatbot used to be clear, easy to use and follow a ELIZA structure.## HOW TO START
+This chatbot used to be clear, easy to use and follow a ELIZA structure.
 
 
 
