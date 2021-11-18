@@ -24,7 +24,7 @@ Then start with "hello" and follow the command to ask your request.
 REQUIREMENTS : Our chatbot run only in REPL environment.
 Only the users who can use this environment can use the chatbot to get informations about Prague city.
 
-If some toursits want to, they can also use another environment which allow clojure programm.
+If some toursits want to, they can also use another environment which allow clojure program.
 
 To use this simple chatbot.
    -  First you have to say "hello"
