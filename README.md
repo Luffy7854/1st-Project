@@ -15,19 +15,19 @@ This chatbot used to be clear, easy to use and follow a ELIZA structure.
 
 ## HOW TO START
 
-First, install clojure, just follow https://clojure.org/guides/getting_started
+First, you need to install clojure, just follow the instruction on: https://clojure.org/guides/getting_started
 
-After just start with "hello" and follow the command to ask your request.
+Then start with "hello" and follow the command to ask your request.
 
 ## USAGE
 
 REQUIREMENTS : Our chatbot run only in REPL environment.
-Only users who can use this environment can use the chatbot to get informations about Prague city.
+Only the users who can use this environment can use the chatbot to get informations about Prague city.
 
 If some toursits want to, they can also use another environment which allow clojure programm.
 
 To use this simple chatbot.
-   - You have to first say "hello"
+   -  First you have to say "hello"
    - Then ask your question with keywords
    - if you have any other question about keywords you can say "HELP"
    - At the end, when you get all the informations the program closes with "program finish..." . 
@@ -86,19 +86,19 @@ ___________________________________________
 
 ## HELP
 
-If users have any problems or need any informatons they can say "HELP" to get the e-mail which can help them for any request.
+If the users have any problems or need any informatons they can say "HELP" to get the e-mail which can help them for any request.
 The e-mail is : help@praguecollege.cz
 
-in the future, we can involve this chatbot into give further informations about a location and give more precise informations about any requests from a tourist.
+in the future, we can involve this chatbot into giving further informations about any location and give more precise informations about any requests from a tourist.
 
-We are open for contributors only if they are motivated into help involving this chatbot taking into account users criticizes.
+We are open into welcoming contributors only if they are motivated into helping improve this chatbot taking into account users criticizes.
 They also have to know Prague City precisely. It will be important for the future of this chatbot.
 
 
 ## LICENSE
 
 
-This project was did by Abishan, Bastien and Kyllian under the direction of our Symbolic Computation teacher : Petr Svarny.
+This project was did by Abishan, Bastien and Kylian under the direction of our Symbolic Computation teacher : Petr Svarny.
 
 
 
