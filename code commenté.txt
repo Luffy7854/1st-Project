@@ -3,7 +3,8 @@
 
 
 
-#for begin we implement all the key words corresponding to the parks, 
+##for begin we implement all the keywords corresponding to the parks research:
+
 (def Parc #{"KAMPA" "Bertramka" "Frantiskanska zahrada" "Obora Hvezda" "Kampa" "Kinsheho Zahrada" "Kalmovka" "Ladronka" "Letna" "Petrin" "Riegrovy sady" "Stromovka" "Vojanovy Sady" "Vysehrad" "bertramka" "frant>(def Parc2 #{"Petrin" "Riegrovy-sady" "Stromovka" "Vojanovy-Sady" "Vysehrad" "Bertramka" "Frantiskanska-zahrada" "Obora-Hvezda" "Kampa" "Kinsheho-Zahrada" "Kalmovka" "Ladronka" "Letna"})
 (def wc #{"wc" "toilet" "privy" "WC" "TOILET" "PRIVY" "Wc" "Toilet" "Privy"})
 (def transport #{"transportation" "transport" "tram" "tramway" "metro""bus" "autobus" "Transportation" "Transport" "Tram" "Tramway" "Metro" "Bus" "Autobus" "TRANSPORTATION" "TRANSPORT" "TRAM" "TRAMWAY" "METRO" >(def playground #{"playground" "PLAYGROUND" "Playground"})
@@ -17,9 +18,12 @@
 (def étinéraire #{"itinerary" "Itinerary" "Path" "path" "PATH"})
 
 
+##this definition is intended to be used to terminate the program with each wrong answer or when the chatbot don't understand something:
  (defn restart[]
-        (println "Program finish...   Thank's you") (shutdown-agents) ) #this definition is intended to be used to terminate the program with each wrong answer
+        (println "Program finish...   Thank's you") (shutdown-agents) ) 
 
+##for begin our programme we implemented a "starter", it's aim to start the program with the word "hello". We puted a read-line for reading the word of the user
+if the word is hello the program start but if the enter word is wrond the program don't start:
 
 (let [yayinput (read-line)]
   (if (= yayinput "hello")
@@ -31,12 +35,15 @@
 (println "1st Project of Symbolic Computation, chatbot Bastien")
 (println " ")
 
+##before we lunch the program and now we need to lunch the "chatbot" so we do the same configuration of before. We puted a read-line, if the user want to start the chatbot
+he need to press "Y" if he don't "N"
 (println "Hello, do you whant to start the chatbot Y/N?:  ")
  (let [yayinput (read-line)]
   (if (= yayinput "Y")
     (println "Ok let's start!")
    ((restart) println "wrong")))
 
+##another readline but for know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
 (println "What's your name ?: ")
 (def x (read-line))
 (println "Hello"x"!")
@@ -45,6 +52,7 @@
 
 (println "###################################################################")
 
+##the chatbot show all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague)
 (println "Here are all the parks in Prague:")
 (println Parc2)
 (println "[PRESS ENTER]")
