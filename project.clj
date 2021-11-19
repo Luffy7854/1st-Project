@@ -57,7 +57,7 @@
 (if (= p "INFORMATIONS")
 
 
- {  (println "About wich Parc ?: [choose Kampa]")
+ {  (println "About which Park ?: [choose Kampa]")
   (let [z (read-line)]
   (cond
   (contains? Parc z)
