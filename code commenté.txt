@@ -54,18 +54,20 @@ he need to press "Y" if he don't "N"
 
 (println "###################################################################")
 
-##the chatbot show all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague)
+##the chatbot show all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague). After this the user need to press ENTER for proceed:
 (println "Here are all the parks in Prague:")
 (println Parc2)
 (println "[PRESS ENTER]")
 (def r (read-line))
 
-
+## the chat bot ask if the user want INFORMATIONS or HELP with a read-line name "p" if the user enter INFORMATIONS so p=information the chatbot say "about wich Parks"
+but if the user say information so "p" is not equal to INFORMATIONS the chatbot will show all commands of this program and put a email for more help needed 
 (println "INFORMATIONS or HELP ? ")
 (let [p (read-line)]
 (if (= p "INFORMATIONS")
 
-
+##for this ICA we need to work about one park, so we chose the Kampa park. The chatbot ask a park, if with  "contains" the park of the user match with the def "Parc" 
+the chatbot will ask what the user want. 
  {  (println "About wich Parc ?: [choose Kampa]")
   (let [z (read-line)]
   (cond
@@ -74,6 +76,7 @@ he need to press "Y" if he don't "N"
 {  (println "The" z "park? Ok no problem what do you want to know ?")
   (let [v (read-line)]
 
+##the part of the program is the more easy and the more important. we puted a read-line named "v". With the all definition upper we puted "if" and "contains" for the chatbot can identified if any keywords of definitions is corresponding with the read-line "v". If any keyword of the read-line 'v' is corresponding so the program print the associated information:
     (if  (contains? transport v)
        (println "The kampa park is served by several trams No. 4, 7, 9, 10, 58, 59."))
 
