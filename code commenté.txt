@@ -3,7 +3,7 @@
 
 
 
-##for begin we implement all the keywords corresponding to the parks research:
+## To begin we implement all the keywords corresponding to the parks research
 
 
 (def Parc #{"KAMPA" "Bertramka" "Frantiskanska zahrada" "Obora Hvezda" "Kampa" "Kinsheho Zahrada" "Kalmovka" "Ladronka" "Letna" "Petrin" "Riegrovy sady" "Stromovka" "Vojanovy Sady" "Vysehrad" "bertramka"})
@@ -20,12 +20,13 @@
 (def étinéraire #{"itinerary" "Itinerary" "Path" "path" "PATH"})
 
 
-##this definition is intended to be used to terminate the program with each wrong answer or when the chatbot don't understand something:
+## This definition is intended to be used to finish the program with each wrong answer or when the chatbot doesn't understand something
+
  (defn restart[]
         (println "Program finish...   Thank's you") (shutdown-agents) ) 
 
-##for begin our programme we implemented a "starter", it's aim to start the program with the word "hello". We puted a read-line for reading the word of the user
-if the word is hello the program start but if the enter word is wrond the program don't start:
+## To begin our program we implemented a "starter", it's aim to start the program with the word "hello"
+## We put a read-line for reading the word of the user if the word is hello the program start but if the enter word is wrong the program doesn't start
 
 (let [yayinput (read-line)]
   (if (= yayinput "hello")
@@ -37,15 +38,16 @@ if the word is hello the program start but if the enter word is wrond the progra
 (println "1st Project of Symbolic Computation, chatbot Bastien")
 (println " ")
 
-##before we lunch the program and now we need to lunch the "chatbot" so we do the same configuration of before. We puted a read-line, if the user want to start the chatbot
-he need to press "Y" if he don't "N"
+## Before we lanch the program we need to lanch the "chatbot" so we do the same configuration of before. We put a read-line, To start the chatbot he needs to press "Y" if he doesn't want "N"
+
 (println "Hello, do you whant to start the chatbot Y/N?:  ")
  (let [yayinput (read-line)]
   (if (= yayinput "Y")
     (println "Ok let's start!")
    ((restart) println "wrong")))
 
-##another readline but for know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
+## Another readline but for know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
+
 (println "What's your name ?: ")
 (def x (read-line))
 (println "Hello"x"!")
@@ -54,20 +56,23 @@ he need to press "Y" if he don't "N"
 
 (println "###################################################################")
 
-##the chatbot show all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague). After this the user need to press ENTER for proceed:
+##The chatbot show all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague). After this the user need to press ENTER for proceed
+
 (println "Here are all the parks in Prague:")
 (println Parc2)
 (println "[PRESS ENTER]")
 (def r (read-line))
 
-## the chat bot ask if the user want INFORMATIONS or HELP with a read-line name "p" if the user enter INFORMATIONS so p=information the chatbot say "about wich Parks"
-but if the user say information so "p" is not equal to INFORMATIONS the chatbot will show all commands of this program and put a email for more help needed 
+## The chatbot asks if the user want INFORMATIONS or HELP with a read-line name "p" if the user enter INFORMATIONS so p=information the chatbot says "about which Parks"
+but if the user says information so "p" is not the same than INFORMATIONS the chatbot will show all commands of this program and put an email for more help needed 
+
 (println "INFORMATIONS or HELP ? ")
 (let [p (read-line)]
 (if (= p "INFORMATIONS")
 
-##for this ICA we need to work about one park, so we chose the Kampa park. The chatbot ask a park, if with  "contains" the park of the user match with the def "Parc" 
-the chatbot will ask what the user want. 
+## For this ICA we need to work about one park, so we chose the Kampa park. The chatbot ask a park, if with  "contains" the park of the user match with the def "Parc" 
+the chatbot will ask what the user wants 
+
  {  (println "About wich Parc ?: [choose Kampa]")
   (let [z (read-line)]
   (cond
@@ -76,7 +81,8 @@ the chatbot will ask what the user want.
 {  (println "The" z "park? Ok no problem what do you want to know ?")
   (let [v (read-line)]
 
-##the part of the program is the more easy and the more important. we puted a read-line named "v". With the all definition upper we puted "if" and "contains" for the chatbot can identified if any keywords of definitions is corresponding with the read-line "v". If any keyword of the read-line 'v' is corresponding so the program print the associated information:
+## The part of the program is easier and the most important. we put a read-line named "v". With all definition upper we put "if" and "contains" for the chatbot can identify if any keywords of definitions is corresponding with the read-line "v". If any keyword of the read-line 'v' is corresponding so the program print the associated information
+
     (if  (contains? transport v)
        (println "The kampa park is served by several trams No. 4, 7, 9, 10, 58, 59."))
 
