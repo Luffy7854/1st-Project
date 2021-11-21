@@ -46,7 +46,7 @@
     (println "Ok let's start!")
    ((restart) println "wrong")))
 
-## Another readline but for know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
+## Another readline but to know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
 
 (println "What's your name ?: ")
 (def x (read-line))
@@ -56,7 +56,7 @@
 
 (println "###################################################################")
 
-##The chatbot show all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague). After this the user need to press ENTER for proceed
+##The chatbot shows all parks in prague by a "println" of the definition Parc2 (Parc2 reference all parks in Prague). After this the user need to press ENTER for proceed
 
 (println "Here are all the parks in Prague:")
 (println Parc2)
