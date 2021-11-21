@@ -1,9 +1,9 @@
-(ns clojure.examples.hello
+  (ns clojure.examples.hello
         (:gen-class))
 
 
 
-## To begin we implement all the keywords corresponding to the parks research
+## For the beginning we implement all the keywords that correspond to the parks research
 
 
 (def Parc #{"KAMPA" "Bertramka" "Frantiskanska zahrada" "Obora Hvezda" "Kampa" "Kinsheho Zahrada" "Kalmovka" "Ladronka" "Letna" "Petrin" "Riegrovy sady" "Stromovka" "Vojanovy Sady" "Vysehrad" "bertramka"})
@@ -25,8 +25,8 @@
  (defn restart[]
         (println "Program finish...   Thank's you") (shutdown-agents) ) 
 
-## To begin our program we implemented a "starter", it's aim to start the program with the word "hello"
-## We put a read-line for reading the word of the user if the word is hello the program start but if the enter word is wrong the program doesn't start
+## To start the program we implemented a "starter", it's aim to start the program with the word "hello"
+## We put a read-line to reading the word of the user if the word is hello the program start but if the enter word is wrong the program doesn't start
 
 (let [yayinput (read-line)]
   (if (= yayinput "hello")
@@ -38,7 +38,7 @@
 (println "1st Project of Symbolic Computation, chatbot Bastien")
 (println " ")
 
-## Before we lanch the program we need to lanch the "chatbot" so we do the same configuration of before. We put a read-line, To start the chatbot he needs to press "Y" if he doesn't want "N"
+## Before lanching the program we need to lanch the "chatbot" so we do the same configuration before. We put a read-line to start the chatbot he needs to press "Y" if he doesn't want "N"
 
 (println "Hello, do you whant to start the chatbot Y/N?:  ")
  (let [yayinput (read-line)]
@@ -46,7 +46,7 @@
     (println "Ok let's start!")
    ((restart) println "wrong")))
 
-## Another readline but to know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
+## we put another readline but to know the name of the user, we did this for the programm be "polite". When the user put this name the chatbot say directly hello <name user>
 
 (println "What's your name ?: ")
 (def x (read-line))
@@ -81,7 +81,7 @@ the chatbot will ask what the user wants
 {  (println "The" z "park? Ok no problem what do you want to know ?")
   (let [v (read-line)]
 
-## The part of the program is easier and the most important. we put a read-line named "v". With all definition upper we put "if" and "contains" for the chatbot can identify if any keywords of definitions is corresponding with the read-line "v". If any keyword of the read-line 'v' is corresponding so the program print the associated information
+## The part of the program is easier and the most important. We put a read-line named "v". With all definition upper we put "if" and "contains" for the chatbot can identify if any keywords of definitions is corresponding with the read-line "v". If any keyword of the read-line 'v' is corresponding so the program print the associated information
 
     (if  (contains? transport v)
        (println "The kampa park is served by several trams No. 4, 7, 9, 10, 58, 59."))
