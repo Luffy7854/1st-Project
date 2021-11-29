@@ -4,8 +4,7 @@
 
 
 
-(def Parc #{"KAMPA" "Bertramka" "Frantiskanska zahrada" "Obora Hvezda" "Kampa" "Kinsheho Zahrada" "Kalmovka" "Ladronka" "Letna" "Petrin" "Riegrovy sady" "Stromovka" "Vojanovy Sady" "Vysehrad" "bertramka"})
-(def Parc2 #{"Petrin" "Riegrovy-sady" "Stromovka" "Vojanovy-Sady" "Vysehrad" "Bertramka" "Frantiskanska-zahrada" "Obora-Hvezda" "Kampa" "Kinsheho-Zahrada" "Kalmovka" "Ladronka" "Letna"})
+(def Parc #{"KAMPA" "Bertramka" "Frantiskanska zahrada" "Obora Hvezda" "Kampa" "Kinsheho Zahrada" "Kalmovka" "Ladronka" "Letna" "Petrin" "Riegrovy sady" "Stromovka" "Vojanovy Sady" "Vysehrad" "bertramka" "frant>(def Parc2 #{"Petrin" "Riegrovy-sady" "Stromovka" "Vojanovy-Sady" "Vysehrad" "Bertramka" "Frantiskanska-zahrada" "Obora-Hvezda" "Kampa" "Kinsheho-Zahrada" "Kalmovka" "Ladronka" "Letna"})
 (def wc #{"wc" "toilet" "privy" "WC" "TOILET" "PRIVY" "Wc" "Toilet" "Privy"})
 (def transport #{"transportation" "transport" "tram" "tramway" "metro""bus" "autobus" "Transportation" "Transport" "Tram" "Tramway" "Metro" "Bus" "Autobus" "TRANSPORTATION" "TRANSPORT" "TRAM" "TRAMWAY" "METRO" >(def playground #{"playground" "PLAYGROUND" "Playground"})
 (def sport #{"calisthenic" "Calisthenic" "sport" "Sport" "CALISTHENIC" "SPORT"})
@@ -32,7 +31,7 @@
 (println "1st Project of Symbolic Computation, chatbot Bastien")
 (println " ")
 
-(println "Hello, do you want to start the chatbot Y/N?:  ")
+(println "Hello, do you whant to start the chatbot Y/N?:  ")
  (let [yayinput (read-line)]
   (if (= yayinput "Y")
     (println "Ok let's start!")
@@ -57,7 +56,7 @@
 (if (= p "INFORMATIONS")
 
 
- {  (println "About which Park ?: [choose Kampa]")
+ {  (println "About wich Parc ?: [choose Kampa]")
   (let [z (read-line)]
   (cond
   (contains? Parc z)
@@ -72,7 +71,7 @@
        (println "OK, the localisation for "z" is:  Malá Strana, 118 00 Prague 1"))
 
     (if (contains? skate v)
-        (println "Yes you can skate in the Kampa parc"))
+        (println "Yes you can skating in the Kampa parc"))
 
     (if (contains? wc v)
         (println "Yes Kampa have"v",you can find them at the entrance"))
