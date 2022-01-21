@@ -28,9 +28,9 @@ Only the users who can use this environment can use the chatbot to get informati
 If some toursits want to, they can also use another environment which allow clojure program.
 
 To use this simple chatbot.
-   - First you have to say "hello"
-   - Then talk with the chatbot and ask your question with keywords
-   - if you have any other question about keywords you can say "HELP"
+   - First you have to write "hello"
+   - Then write with the chatbot and write your question with keywords
+   - if you have any other question about keywords you can write "HELP"
    - At the end, when you get all the informations the program closes with "program finish..." . 
    
    
@@ -110,7 +110,7 @@ ___________________________________________
 If the users have any problems or need any informatons they can say "HELP" to get the e-mail which can help them for any request.
 The e-mail is : help@praguecollege.cz
 
-In the future, we will be able to involve this chatbot to give more information about any birds and give more precise information about any request of a tourist. For the moment this chatbot gives information about the birds and Park. 
+In the future, we will be able to involve this chatbot to give more information about 2 kind of birds birds and give more precise information about any request of a tourist. For the moment this chatbot gives information about the birds and Park. 
 
 We are open into welcoming contributors only if they are motivated into helping improve this chatbot taking into account users criticizes.
 They also have to know Prague City precisely. It will be important for the future of this chatbot.
